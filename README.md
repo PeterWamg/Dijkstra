@@ -34,7 +34,8 @@ The worst-case time complexity is O((V<sup>2</sup> + E) log V). This is because 
 
 ## Algorithm application
 Dijkstra Algorithm is commonly used in search engines. Many websites use this algorithm to generate product links or push videos that users may be interested in. 
-> Another application of Dijkstra in daily life is reflected in logistics and transportation. Logistics companies typically use this algorithm to optimize routes, allocate goods, manage traffic flow, and other areas to improve efficiency and reduce costs.
+>
+Another application of Dijkstra in daily life is reflected in logistics and transportation. Logistics companies typically use this algorithm to optimize routes, allocate goods, manage traffic flow, and other areas to improve efficiency and reduce costs.
 
 ## Results
 
