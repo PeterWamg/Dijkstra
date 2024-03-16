@@ -22,7 +22,12 @@ Dijkstra(Graph G, Node s)
             if (D[v] > D[u] + G.weight(u, v))
                 D[v] = D[u] + G.weight(u,v)
 ```
+The Dijkstra algorithm uses a greedy algorithm to gradually expand the set of known shortest paths until reaching the target node. Specifically, the algorithm maintains a distance array that records the shortest distance from the starting node to each node, as well as a set that records the nodes that have determined the shortest path. At each step, the algorithm selects the node with the smallest distance in the distance array that is not in the set, adds it to the set, and updates the distance array to reflect the shortest path from the starting node to that node.
 >
+## Time complexity
+For a graph with V vertices and E edges, the time complexity of the Dijkstra algorithm is:
+Implement using adjacency matrix: O (V ^ 2).
+Implement priority queue using binary heap: O ((V+E) log V).
 ## Results
 
 ### Graph Information:
