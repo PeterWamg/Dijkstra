@@ -28,6 +28,9 @@ The Dijkstra algorithm uses a greedy algorithm to gradually expand the set of kn
 For a graph with V vertices and E edges, the time complexity of the Dijkstra algorithm is:
 - Implement using adjacency matrix: O(V<sup>2</sup>).
 - Implement priority queue using binary heap: O((V+E)logV) .
+### Worse case
+The worst-case time complexity is O((V^2 + E) log V). This is because even with heap optimization, each vertex may be inserted, deleted, and updated, with each of these operations having a time complexity of log V. If E approaches V^2, then the overall complexity of heap operations may approach O(V^2 log V).
+
 ## Results
 
 ### Graph Information:
