@@ -1,6 +1,10 @@
 # Dijkstra Algorithm
 
-The Dijkstra algorithm is a classic algorithm used to find the shortest path from a single source node to all other nodes in a weighted graph.
+## Description
+Dijkstra's Algorithm is an algorithm used to solve the single source shortest path problem, which uses greedy algorithms to gradually expand the set of known shortest paths until reaching the target node.
+
+## Gold
+Given a weighted directed graph and a source node to find the shortest path from the source node to all other nodes in the graph.
 
 ## Pseudocode
 
