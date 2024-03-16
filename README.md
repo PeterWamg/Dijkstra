@@ -29,7 +29,7 @@ For a graph with V vertices and E edges, the time complexity of the Dijkstra alg
 - Implement using adjacency matrix: O(V<sup>2</sup>).
 - Implement priority queue using binary heap: O((V+E)logV) .
 ### Worse case
-The worst-case time complexity is O((V^2 + E) log V). This is because even with heap optimization, each vertex may be inserted, deleted, and updated, with each of these operations having a time complexity of log V. If E approaches V^2, then the overall complexity of heap operations may approach O(V^2 log V).
+The worst-case time complexity is O((V<sup>2</sup> + E) log V). This is because even with heap optimization, each vertex may be inserted, deleted, and updated, with each of these operations having a time complexity of log V. If E approaches V<sup>2</sup>, then the overall complexity of heap operations may approach O(V<sup>2</sup> log V).
 
 ## Results
 
