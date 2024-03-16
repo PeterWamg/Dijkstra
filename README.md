@@ -15,7 +15,8 @@ Dijkstra(Graph G, Node s)
         for each vertex v adjacent to u
             if (D[v] > D[u] + G.weight(u, v))
                 D[v] = D[u] + G.weight(u,v)
-
+```
+>
 ## results
 Graph Information:
 Node 0 has edges to: (1, 4) (7, 8) 
