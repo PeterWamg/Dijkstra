@@ -38,7 +38,8 @@ The Dijkstra algorithm uses a greedy algorithm to gradually expand the set of kn
 - In step 4, the value of point G is the smallest, and S={D, C, E, F, G} is updated. At this point, the only point directly connected to point G is A. Dis [A]=dis [G]+dis [G-A]=12+14=26>22 (not updated). {D (0), C (3), E (4), F (6), G (12), B (13), A (22)}
 
 - In step 5, the value of point B is the smallest, and S={D, C, E, F, G, B} is updated. At this point, the only point directly connected to point B is A. Dis [A]=dis [B]+dis [B-A]=13+12=25>22 (not updated). {D (0), C (3), E (4), F (6), G (12), B (13), A (22)}
-Finally, only A value remains, and we directly enter the set S={D, C, E, F, G, B, A}. At this point, all points have been traversed and the final results {D (0), C (3), E (4), F (6), G (12), B (13), A (22)} are obtained.
+
+- Finally, only A value remains, and we directly enter the set S={D, C, E, F, G, B, A}. At this point, all points have been traversed and the final results {D (0), C (3), E (4), F (6), G (12), B (13), A (22)} are obtained.
 
 ## Algorithm implement
 The Implementation of Algorithms in C++
